@@ -9,7 +9,6 @@ def IMAGE_NAME = "${SERVICE_NAME}:${TAG}-E2E"
 
 pipeline {
   agent {
-   label 'cje-slaves-lc3-dighmadelyne-dmz'
  }
 
 
