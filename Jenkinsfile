@@ -8,8 +8,7 @@ def IMAGE_NAME = "${SERVICE_NAME}:${TAG}-E2E"
 
 
 pipeline {
-  agent {
- }
+  agent any 
 
 
 
